@@ -1,3 +1,4 @@
+process.removeAllListeners('warning');
 const client = require('discord-rich-presence')('<YOUR ID HERE>');
 const express = require('express');
 var song = 'Waiting for music...';
